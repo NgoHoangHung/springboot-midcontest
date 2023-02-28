@@ -1,12 +1,9 @@
 {
   "borrower": {
-    "name": "datct",
-    "phone": "0521369874",
+    "name": "lamp",
+    "phone": "0914352211",
     "cccd": "033222555666",
-    "wallet": {
-      "accountnum": "0222111333",
-      "balance": 300000
-    }
+    "wallet": null
   },
   "servicez": 0,
   "bookList": [
@@ -14,18 +11,18 @@
       "author": "abc",
       "name": "Lão hạc",
       "price": 50000,
-      "quantityTransactions": 2,
-      "Type": {
+      "quantityTransactions":2,
+      "type": {
         "id": 5,
         "name": "truyện văn học "
       }
     },
     {
-      "author": "",
+      "author": "tô hoài",
       "name": "Rế mèn phiêu lưu kí",
       "price": 30000,
-      "quantityTransactions": 2,
-      "Type": {
+      "quantityTransactions":2,
+      "type": {
         "id": 5,
         "name": "truyện văn học "
       }
