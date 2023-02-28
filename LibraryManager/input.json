@@ -1,0 +1,35 @@
+{
+  "borrower": {
+    "name": "datct",
+    "phone": "0521369874",
+    "cccd": "033222555666",
+    "wallet": {
+      "accountnum": "0222111333",
+      "balance": 300000
+    }
+  },
+  "servicez": 0,
+  "bookList": [
+    {
+      "author": "abc",
+      "name": "Lão hạc",
+      "price": 50000,
+      "quantityTransactions": 2,
+      "Type": {
+        "id": 5,
+        "name": "truyện văn học "
+      }
+    },
+    {
+      "author": "",
+      "name": "Rế mèn phiêu lưu kí",
+      "price": 30000,
+      "quantityTransactions": 2,
+      "Type": {
+        "id": 5,
+        "name": "truyện văn học "
+      }
+    }
+  ],
+  "returnDay": 10
+}

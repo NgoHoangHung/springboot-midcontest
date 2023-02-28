@@ -1,0 +1,39 @@
+{
+  "customerDTO": {
+    "name": "John Doe",
+    "phone": "0345621315",
+    "cccd": "123ABC456AEF",
+    "wallet": {
+      "accountnum": "AC-123456",
+      "charge": 500000
+    }
+  },
+  "servicez": "RENT",
+  "bookManagerDTOS": [
+    {
+      "bookDTO": {
+        "id": 6,
+        "author": "F. Scott Fitzgerald",
+        "name": "The Great Gatsby",
+        "price": 50000,
+        "type": {
+          "name": "Fiction"
+        }
+      },
+      "quantity": 2
+    },
+    {
+      "bookDTO": {
+        "id": 7,
+        "author": "Harper Lee",
+        "name": "To Kill a Mockingbird",
+        "price": 60000,
+        "type": {
+          "name": "Fiction"
+        }
+      },
+      "quantity": 3
+    }
+  ],
+  "returnDay": 14
+}

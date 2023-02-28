@@ -1,0 +1,123 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .book-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .book {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .book img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      .book h2 {
+        font-size: 24px;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+
+      .book p {
+        font-size: 16px;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+
+      .book a {
+        display: block;
+        background-color: #0066cc;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      .book a:hover {
+        background-color: #0052a3;
+      }
+    </style>
+  </head>
+<body>
+<div class="container">
+  <h1>Library</h1>
+  <ul class="book-list">
+    <!-- Vòng lặp để hiển thị danh sách sách -->
+    <!-- Các sách có thể được lấy từ cơ sở dữ liệu và truyền vào bằng cách sử dụng các công nghệ khác nhau như JSP, Thymeleaf, hoặc Angular -->
+    <li class="book">
+      <img src="https://via.placeholder.com/250x350" alt="Book Cover">
+      <h2>Book Title</h2>
+      <p>Author Name</p>
+      <a href="#">Borrow</a>
+    </li>
+    <li class="book">
+      <img src="https://via.placeholder.com/250x350" alt="Book Cover">
+      <h2>Book Title</h2>
+      <p>Author Name</p>
+      <a href="#">Borrow</a>
+    </li>
+    <li class="book">
+      <img src="https://via.placeholder.com/250x350" alt="Book Cover">
+      <h2>Book Title</h2>
+      <p>Author Name</p>
+      <a href="#">Borrow</a>
+    </li>
+    <li class="book">
+      <img src="https://via.placeholder.com/250x350" alt="Book Cover">
+      <h2>Book Title</h2>
+      <p>Author Name</p>
+      <a href="#">Borrow</a>
+    </li>
+    <li class="book">
+      <img src="https://via.placeholder.com/250x350" alt="Book Cover">
+      <h2>Book Title</h2>
+      <p>Author Name</p>
+      <a href="#">Borrow</a>
+    </li>
+    <li class="book">
+      <img src="https://via.placeholder.com/250x350" alt="Book Cover">
+      <h2>Book Title</h2>
+      <p>Author Name</p>
+      <a href="#">Borrow</a>
+    </li>
+  </ul>
+</div>
+</body>
+</html>

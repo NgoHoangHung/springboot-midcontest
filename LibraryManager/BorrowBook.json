@@ -1,0 +1,98 @@
+[
+  {
+    "customerName": "John Doe",
+    "customerPhone": "1234567890",
+    "customerCCCD": "123ABC456DEF",
+    "bookManagerDTOS": [
+      {
+        "bookDTO": {
+          "id": 1,
+          "title": "The Great Gatsby",
+          "author": "F. Scott Fitzgerald",
+          "price": 50000,
+          "typeDTO": {
+            "name": "Fiction"
+          }
+        },
+        "quantity": 2
+      },
+      {
+        "bookDTO": {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "isbn": 60000,
+          "typeDTO": {
+            "name": "Fiction"
+          }
+        },
+        "quantity": 3
+      }
+    ],
+    "deposit": 300000
+  },
+  {
+    "customerName": "Jane Smith",
+    "customerPhone": "0987654321",
+    "customerCCCD": "456DEF789GHI",
+    "bookManagerDTOS": [
+      {
+        "bookDTO": {
+          "id": 3,
+          "title": "1984",
+          "author": "George Orwell",
+          "price": 45000,
+          "typeDTO": {
+            "name": "Fiction"
+          }
+        },
+        "quantity": 1
+      },
+      {
+        "bookDTO": {
+          "id": 4,
+          "title": "The Catcher in the Rye",
+          "author": "J.D. Salinger",
+          "price": 55000,
+          "typeDTO": {
+            "name": "Fiction"
+          }
+        },
+        "quantity": 2
+      }
+    ],
+    "deposit": 400000
+  },
+  {
+    "customerName": "Bob Johnson",
+    "customerPhone": "0123456789",
+    "customerCCCD": "789JKL123MNO",
+    "bookManagerDTOS": [
+      {
+        "bookDTO": {
+          "id": 5,
+          "title": "The Lord of the Rings",
+          "author": "J.R.R. Tolkien",
+          "price": 60000,
+          "typeDTO": {
+            "name": "Fantasy"
+          }
+        },
+        "quantity": 1
+      },
+      {
+        "bookDTO": {
+          "id": 6,
+          "title": "Harry Potter and the Philosopher's Stone",
+          "author": "J.K. Rowling",
+          "price": 65000,
+          "typeDTO": {
+            "name": "Fantasy"
+          }
+        },
+        "quantity": 3
+      }
+    ],
+    "deposit": 500000
+  }
+]

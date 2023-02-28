@@ -1,0 +1,75 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lost Book</title>
+  <style>
+    .form-container {
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #fff;
+      font-size: 16px;
+      box-shadow: 0px 0px 5px #ccc;
+    }
+
+    button[type="submit"] {
+      display: block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #3e8e41;
+    }
+
+  </style>
+
+</head>
+<body>
+<div class="form-container">
+  <h2>Làm mất sách</h2>
+  <form id="lost-book-form">
+    <div class="form-group">
+      <label for="book-id">ID Sách:</label>
+      <input type="text" id="book-id" name="bookId" required>
+    </div>
+    <div class="form-group">
+      <label for="penalty-amount">Số tiền phạt:</label>
+      <input type="number" id="penalty-amount" name="penaltyAmount" required>
+    </div>
+    <button type="submit">Xác nhận</button>
+  </form>
+</div>
+
+</body>
+</html>
